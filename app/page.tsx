@@ -8,6 +8,7 @@ import CorporateHub from "../components/home/CorporateHub";
 import BulkOrders from "../components/home/BulkOrders";
 import FeaturedCollections from "../components/home/FeaturedCollections";
 
+
 export default function Home() {
   return (
     <main>
