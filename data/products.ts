@@ -753,3 +753,50 @@ export const foodBeverageProducts: Product[] = [
     specifications: ["Biodegradable Silk Bags", "5 Assorted Blends", "100 Bags per Box", "Individually Wrapped"]
   }
 ];
+
+export const hospitalityProducts: Product[] = [
+  {
+    id: "hosp-vip-boardroom",
+    brand: "Corporate Hospitality",
+    title: "VIP Boardroom Refreshment Package",
+    priceExVat: 4500.00,
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80", 
+    category: "Catering",
+    isBulkAvailable: true,
+    isGiftingAvailable: false,
+    specifications: ["Premium Bottled Water (Still/Sparkling)", "Artisan Coffee Beans", "Luxury Tea Selection", "Bespoke Biscuit Assortment"]
+  },
+  {
+    id: "hosp-event-coffee",
+    brand: "Event Services",
+    title: "Mobile Barista Coffee Station (Per Day)",
+    priceExVat: 8500.00,
+    image: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=800&q=80", 
+    category: "Event Support",
+    isBulkAvailable: false,
+    isGiftingAvailable: false,
+    specifications: ["Professional Barista", "Commercial Espresso Machine", "Premium Beans & Alternatives", "Custom Branded Cups"]
+  },
+  {
+    id: "hosp-exec-lunch",
+    brand: "Corporate Catering",
+    title: "Executive Catered Lunch (Per 10 Pax)",
+    priceExVat: 3200.00,
+    image: "https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=800&q=80", 
+    category: "Catering",
+    isBulkAvailable: true,
+    isGiftingAvailable: false,
+    specifications: ["Gourmet Platter Selection", "Dietary Requirements Catered", "Premium Presentation", "Setup & Breakdown"]
+  },
+  {
+    id: "hosp-wine-tasting",
+    brand: "VIP Experiences",
+    title: "Corporate Wine Tasting Masterclass",
+    priceExVat: 12500.00,
+    image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=800&q=80", 
+    category: "Event Support",
+    isBulkAvailable: false,
+    isGiftingAvailable: true,
+    specifications: ["Expert Sommelier Hosted", "Premium Estate Wines", "Artisan Cheese Pairing", "Ideal for Client Networking"]
+  }
+];
